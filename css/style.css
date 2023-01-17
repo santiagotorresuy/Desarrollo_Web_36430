@@ -209,7 +209,7 @@ input#buscador {
     grid-template-rows: 1fr 1fr;
     row-gap: 3rem;
     column-gap: 3rem;
-    align-items: center;
+    align-items: flex-start;
     justify-items: center;
 }
 
@@ -245,15 +245,15 @@ input#buscador {
     background-color: rgba(57, 51, 54, 0.534);
 }
 
-.contenedor2_img{
+.contenedor2_img {
     height: 180px;
-    width: 210px;
+    width: 320px;
 }
 
 .div_contenedor2--position2 {
     height: fit-content;
-    width: fit-content;
-    padding-bottom:  0.5rem;
+    width: min-content;
+    padding-bottom: 0.5rem;
     background-color: rgba(57, 51, 54, 0.534);
 } 
     /* MUNDIAL*/
