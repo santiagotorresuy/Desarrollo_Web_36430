@@ -7,6 +7,9 @@
 body{
     background-color: rgb(22, 21, 21);
 }
+li{
+    list-style-type: none;
+    }
 
 /*generico*/
 
@@ -19,27 +22,22 @@ body{
     flex-direction: row;
 }
 
-li{
-    list-style-type: none;
-    }
+.a{
+    text-decoration: none;
+    font-style: normal;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
     
-    .a{
-        text-decoration: none;
-        font-style: normal;
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    .a_registrate{
-        font-style: normal;
-        font-weight: 700;
-        text-decoration: none;
-        color: rgb(0, 83, 122);
-        font-size: inherit;
-    }
+.a_registrate{
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+    color: rgb(0, 83, 122);
+    font-size: inherit;
+}
 
-/* HEADER --------*/
-
+/*HEADER*/
 .header {
     background-image: linear-gradient(to bottom,rgba(19,20,24,1) 51%,rgba(19,20,24,0) 100%);
     display: flex;
@@ -78,17 +76,7 @@ li{
     border-right: solid white;
 }
 
-
-input#buscador {
-    width: 120px;
-}
-
-/* HEADER --------*/
-
-
-
-/* CARRUSEL -------*/
-
+/*CARRUSEL*/
 .section_carrusel{
     border: solid black;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -98,13 +86,12 @@ input#buscador {
     background-color: rgb(0, 42, 72);
     height: 400px;
 }
-/* CARRUSEL -------*/
 
 
-/* MAIN ------*/
 
-    /* TRANSMISION EN VIVO */
+/*MAIN*/
 
+    /*TRANSMISION EN VIVO*/
 .section_vivo{
     display: flex;
     justify-content: space-between;
@@ -145,11 +132,8 @@ input#buscador {
     border-left: none;
     padding: 0 2rem 0 2rem;
 }
-    /* TRANSMISION EN VIVO */
- 
 
-    /* DESTACADOS */
-
+    /*DESTACADOS*/
 .section_destacados {
     overflow-x: scroll;
     display: flex;
@@ -177,10 +161,8 @@ input#buscador {
     text-align: left;
     padding-top: 1rem;
 }
-    /* DESTACADOS */
 
-    /* MUNDIAL*/
-
+    /*MUNDIAL*/
 .div_mundial {
     background-image: url(../img/fondoMundial.jpg);
     width: 100%;
@@ -261,12 +243,17 @@ input#buscador {
     padding-bottom: 0.5rem;
     background-color: rgba(57, 51, 54, 0.534);
 } 
-    /* MUNDIAL*/
 
-/* MAIN ------*/
+    /*PROGRAMACION*/
 
-/*FOOTER------*/
+.img_programacion{
+    width: 200px;
+    height: 150px;
+}
 
+
+
+    /*FOOTER*/
 .footer_section1 {
     margin: 0 4rem 0 4rem;
     padding: 1rem 0 1rem 0;
@@ -320,10 +307,8 @@ input#buscador {
     font-size: 25px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-/*FOOTER------*/
 
-/*INGRESO------*/
-
+    /*INGRESO*/
 .body_background_ingreso{
     background-image: url(../img/fondodiamante2.jpg);
     background-repeat: no-repeat;
@@ -443,10 +428,8 @@ input#buscador {
 .background_registrate{
     background-color:  rgb(71, 71, 240);
 }
-/*INGRESO------*/
 
-/*PROGRAMAS------*/
-
+    /*PROGRAMAS*/
 .main_programas {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -491,9 +474,7 @@ input#buscador {
     background-color: rgba(92, 94, 94, 0.664);
 }
 
-/*PROGRAMAS------*/  
-
-/* MEDIA QUERIES */
+/*MEDIA QUERIES*/
 
 @media screen and (max-width: 768px){
 
