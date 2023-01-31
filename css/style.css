@@ -258,7 +258,7 @@ li{
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.footer_p{
+.footer_div_p{
     margin-bottom: 1rem;
     color: rgb(24 85 127);
     font-size: 25px;
@@ -275,18 +275,18 @@ li{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.footer_section2_programas{
+.footer_section2{
     margin: 0 0 2rem 4rem;
 }
 
-.footer_programas {
+.footer_section2_ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 15px;
     padding-left: 0;
 }
 
-.footer_p_programas--border {
+.footer_section2_p--border {
     border-top: solid white;
     padding-top: 1rem;
     margin: 0 4rem 1rem 0;
