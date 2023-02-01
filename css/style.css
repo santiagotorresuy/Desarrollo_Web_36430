@@ -585,7 +585,6 @@ li{
     /*SECCION VIVO*/
     .section_vivo {
         flex-direction: column;
-        width: fit-content;
     }
     .section_vivo_div1 {
         flex-direction: column;
