@@ -10,6 +10,9 @@ body{
 li{
     list-style-type: none;
     }
+p{
+    margin-bottom: 0;
+}
 
 /*generico*/
 
@@ -299,7 +302,7 @@ li{
 
     /*INGRESO*/
 .body_background_ingreso{
-    background-image: url(../img/fondodiamante2.jpg);
+    background-image: url(../img/fondo_formulario_ingreso.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -308,9 +311,8 @@ li{
     border-radius: 4px;
     box-shadow: 0 4px 8px 0 rgba(145, 10, 10, 0.315), 0 6px 20px 0 rgba(0, 0, 0, 0.568);
     height: 28rem;
+    width: 50rem;
     display: flex;
-    margin: 6rem 6rem 0px;
-    justify-content: space-between;
     border: solid white;
 }
 
@@ -419,6 +421,13 @@ li{
 }
 
     /*PROGRAMAS*/
+.main_programas_h1{
+    padding-left: 1rem;
+    border-left: solid white;
+    margin: 2rem 5rem;
+    color: white;
+}
+
 .main_programas {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -442,6 +451,7 @@ li{
 .p_horario{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
+    margin-bottom: 10px;
 }
 
 .programas_div_a {
@@ -461,6 +471,13 @@ li{
     position: absolute;
     bottom: 1rem;
     background-color: rgba(92, 94, 94, 0.664);
+}
+
+/*VIVO*/
+.main_vivo_iframe {
+    margin: 0 5rem;
+    width: -webkit-fill-available;
+    height: 550px;
 }
 
 /*MEDIA QUERIES*/
