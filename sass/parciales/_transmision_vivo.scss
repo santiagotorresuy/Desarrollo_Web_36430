@@ -14,9 +14,10 @@
             &_div{
                 color: white;
                 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-                margin: 2rem 0 2rem 2rem;
+                margin: 1rem 0 1rem 2rem;
                 padding-left: 1rem;
                 border-left: solid white;
+                width: max-content;
             }
             &_p {
                 font-size: 30px;

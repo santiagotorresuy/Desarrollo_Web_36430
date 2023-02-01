@@ -69,6 +69,7 @@ li{
     display: flex;
     justify-content: space-evenly;
     gap: 2rem;
+    margin-bottom: 0;
 }
 
 .header_nav_ul_li {
@@ -98,9 +99,10 @@ li{
 .section_vivo_div1_div{
     color: white;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 2rem 0 2rem 2rem;
+    margin: 1rem 0 1rem 2rem;
     padding-left: 1rem;
     border-left: solid white;
+    width: max-content;
 }
 
 .section_vivo_div1_p {
@@ -135,6 +137,7 @@ li{
 .section_destacados_h1{
     padding-left: 1rem;
     border-left: solid white;
+    margin-bottom: 0;
 }
 
 .section_destacados_div{
@@ -154,7 +157,6 @@ li{
     background-image: url(../img/fondoMundial.jpg);
     width: 100%;
     height: fit-content;
-    padding: 2rem 0;
     margin-top: 6rem;
 }
 
@@ -167,6 +169,7 @@ li{
 .div_mundial_div {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     padding-bottom: 3rem;
 }
 
@@ -181,15 +184,14 @@ li{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    row-gap: 3rem;
     column-gap: 3rem;
     align-items: flex-start;
     justify-items: center;
 }
 
 .img1_mundial {
-    height: 500px;
-    width: 750px;
+    height: 520px;
+    width: 480px;
 }
 
 .contenedor1_div{
@@ -220,8 +222,8 @@ li{
 }
 
 .contenedor2_img {
-    height: 180px;
-    width: 320px;
+    height: 150px;
+    width: 280px;
 }
 
 .div_contenedor2--position2 {

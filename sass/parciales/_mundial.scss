@@ -3,7 +3,6 @@
         background-image: url(../img/fondoMundial.jpg);
         width: 100%;
         height: fit-content;
-        padding: 2rem 0;
         margin-top: 6rem;
         &_logo {
             padding: 2rem 0;
@@ -13,6 +12,7 @@
         &_div {
             display: flex;
             justify-content: space-evenly;
+            align-items: center;
             padding-bottom: 3rem;
         }
             &_contenedor1{
@@ -21,8 +21,8 @@
                 padding-bottom: 0.5rem;
                 background-color: rgba(57, 51, 54, 0.534);
                 .img1_mundial {
-                    height: 500px;
-                    width: 750px;
+                    height: 520px;
+                    width: 480px;
                 }
             }
             .contenedor1_div{
@@ -46,7 +46,6 @@
                 display: grid;
                 grid-template-columns: 1fr 1fr;
                 grid-template-rows: 1fr 1fr;
-                row-gap: 3rem;
                 column-gap: 3rem;
                 align-items: flex-start;
                 justify-items: center;
@@ -56,8 +55,8 @@
                     padding-bottom: 0.5rem;
                     background-color: rgba(57, 51, 54, 0.534);
                     .contenedor2_img {
-                        height: 180px;
-                        width: 320px;
+                        height: 150px;
+                        width: 280px;
                     }
                 }
                 .div_contenedor2--position2 {
