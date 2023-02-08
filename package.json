@@ -17,8 +17,8 @@
   "bugs": {
     "url": "https://github.com/santiagotorresuy/proyecto_desarrollo_web/issues"
   },
-  "homepage": "https://github.com/santiagotorresuy/proyecto_desarrollo_web#readme"
+  "homepage": "https://github.com/santiagotorresuy/proyecto_desarrollo_web#readme",
+  "dependencies": {
+    "bootstrap-icons": "^1.10.3"
+  }
 }
-
-
-
