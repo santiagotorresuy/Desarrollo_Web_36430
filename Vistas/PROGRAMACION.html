@@ -10,17 +10,59 @@
 </head>
 <body>
     <header class="header">
-        <a class="a" href="../index.html" class="header_logo"><img src="../img/LOGO__1_-removebg-preview.png" alt="Logo_TrastornadosTV" width="90px" height="90px"></a>
-        <nav class="d-none d-md-block">
+        <a class="a header_logo" href="../index.html"><img src="../img/LOGO__1_-removebg-preview.png" alt="Logo_TrastornadosTV" width="90px" height="90px"></a>
+        <nav class="d-none d-lg-block">
             <ul class="header_nav_ul">
-                <li class="header_li"><a class="a" href="../index.html">Inicio</a></li>
-                <li class="header_li"><a class="a" href="./PROGRAMAS.html">Programas</a></li>
-                <li class="header_li"><a class="a" href="./PROGRAMACION.html">Programación</a></li>
-                <li><a class="a" href="./VIVO.html">Vivo</a></li>
+                <li><a class="a header_nav_ul_li" href="../index.html">Inicio</a></li>
+                <li><a class="a header_nav_ul_li" href="./PROGRAMAS.html">Programas</a></li>
+                <li><a class="a header_nav_ul_li" href="./PROGRAMACION.html">Programación</a></li>
+                <li><a class="a header_nav_ul_li" href="./VIVO.html">Vivo</a></li>
             </ul>
         </nav>
-        <div class="header_div d-none d-md-block">
-            <a class="a" href="./Vistas/INGRESAR.html" class="header_div_a">Ingresar</a>
+        <div class="header_div">
+            <a class="a pe-4 border-end" href="./INGRESAR.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                    <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+                </svg>
+            </a>
+            <div class="dropdown">
+                <a class="btn btn-secondary ms-3 my_search_header_button" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                        </svg>
+                </a>
+                <div class="dropdown-menu header_dropdown_bg">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2 ms-2 header_input_search" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-success me-2" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="d-lg-none">
+            <button class="btn btn-primary my_header_button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">&#9776</button>
+            <div class="offcanvas offcanvas-end my_header_offcanvas" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                <button type="button align-self-end" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button> 
+                <div class="offcanvas-body">
+                    <ul class="header_nav_ul d-flex flex-column align-items-start">
+                        <li><a class="a header_nav_ul_li" href="../index.html">Inicio</a></li>
+                        <li><a class="a header_nav_ul_li" href="./PROGRAMAS.html">Programas</a></li>
+                        <li><a class="a header_nav_ul_li" href="./PROGRAMACION.html">Programación</a></li>
+                        <li><a class="a header_nav_ul_li" href="./VIVO.html">Vivo</a></li>
+                    </ul>
+                    <div class="d-flex align-items-center mt-3">
+                        <a class="a pe-2 border-end" href="./INGRESAR.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                                <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+                            </svg>
+                        </a>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2 ms-3 w-50 header_input_search" type="search" placeholder="Buscar" aria-label="Search">
+                            <button class="btn btn-outline-success me-2" type="submit">Buscar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
 
