@@ -55,7 +55,6 @@ p{
 .header_div{
     gap: 2rem;
     display: flex;
-    margin-right: 5rem;
 }
 
 .header_div_a{
@@ -92,6 +91,11 @@ p{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.my_search_header_button{
+    background-color:rgba(19,20,24,1);
+    border: none;
+    color: white;
+}
 /*MAIN*/
 
     /*TRANSMISION EN VIVO*/
