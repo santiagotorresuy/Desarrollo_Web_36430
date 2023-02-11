@@ -482,14 +482,19 @@ p{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(9,15rem);
-    grid-column-gap: 1rem;
-    grid-row-gap: 1rem;
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
     margin: 0 5rem;
 }
 
 .main_programas_div {
     position: relative;
     overflow: hidden;
+    transition: all 0.5s;
+}
+
+.main_programas_div:hover{
+    opacity: 60%;
 }
 
 .p_nombre_programa{
@@ -512,7 +517,7 @@ p{
 
 .main_programas_img {
     width: 100%;
-    height: 100%;
+    height: 15rem;
 }
 
 .main_programas_a_div{
@@ -545,6 +550,22 @@ p{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
     }
+    /*PROGRAMAS*/
+    .main_programas {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(9,10rem);
+        grid-column-gap: 2rem;
+        grid-row-gap: 2rem;
+        margin: 0 4rem;
+    }
+    .p_nombre_programa {
+        font-size: 20px;
+    }
+    .main_programas_img {
+        height: 10rem;
+    }
+    
 }
 
 @media screen and (max-width: 768px){
@@ -643,6 +664,32 @@ p{
     .footer_p_programas--border {
         margin: 0 2rem 1rem 0;
     }
+
+    /*PROGRAMAS*/
+    .main_programas_h1 {
+        padding-left: 1rem;
+        border-left: solid white;
+        margin: 1rem 3rem;
+        color: white;
+    }
+    .main_programas {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(9,10rem);
+        grid-column-gap: 2rem;
+        grid-row-gap: 2rem;
+        margin: 0 3rem;
+    }
+    .main_programas_a_div {
+        height: fit-content;
+    }
+    .p_nombre_programa {
+        font-size: 20px;
+    }
+    .main_programas_img {
+        height: 10rem;
+    }
+
 }
 
 @media screen and (max-width: 425px){
@@ -710,34 +757,6 @@ p{
         width: min-content;
     }
 
-    /*PROGRAMAS*/
-    .main_programas {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: repeat(9,15rem);
-        grid-column-gap: 1rem;
-        grid-row-gap: 1rem;
-        margin: 0 1rem;
-    }
-    .main_programas_div {
-        position: relative;
-        height: 145px;
-        overflow: hidden;
-    }
-    .main_programas_a_div {
-        width: 90%;
-    }
-    .p_nombre_programa {
-        font-size: 15px;
-    }
-    .p_horario {
-        font-size: 10px;
-    }
-    .main_programas_img {
-        width: 100%;
-        height: 145px;
-    }
-
     /*FOOTER*/
     .footer_div {
         grid-template-columns: 1fr;
@@ -763,10 +782,14 @@ p{
         margin: 0 2rem 1rem 0;
     }
 
-    
-
-
-
+    /*PROGRAMAS*/
+    .main_programas {
+        grid-template-columns: 288px;
+        grid-template-rows: repeat(9,10rem);
+    }
+    .main_programas_h1{
+        margin: 1rem 1rem;
+    }
 }
 
 
