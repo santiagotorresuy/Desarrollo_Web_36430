@@ -560,6 +560,15 @@ p{
 }
 
 /*MEDIA QUERIES*/
+@media screen and (max-width: 2560px){
+    /*PROGRAMACION*/
+    .my_tab_nav{
+        justify-content: center;
+    }
+    .programacion_ul_a_nombre {
+        width: 200px;
+    }
+}
 @media screen and (max-width: 1200px){
     /*CARRUSEL*/
     .carrusel_h5{
@@ -590,7 +599,12 @@ p{
         height: 10rem;
     }
     /*PROGRAMACION*/
-    
+    .my_tab_nav{
+        justify-content: center;
+    }
+    .programacion_ul_a_nombre {
+        width: 200px;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -721,7 +735,7 @@ p{
         overflow-x: scroll;
     }
     .programacion_ul_a_nombre{
-        margin-left: 80px;
+        margin-left: 60px;
         font-weight: lighter;
         font-size: 15px;
     }
