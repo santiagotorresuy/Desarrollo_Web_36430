@@ -1,0 +1,28 @@
+.my_tab_nav{
+    height: 5rem;
+    border-bottom: 0;
+    background-color: rgba(128, 128, 128, 0.545);
+    &_btn{
+        color: white;
+        border-bottom: 0;
+        &:hover{
+            background-color: rgb(22, 21, 21);
+            color: rgb(145, 144, 144);
+            border: none;
+            border-radius: 0;
+        }
+    }
+}
+.programacion_ul_a_img{
+    width: 300px;
+}
+.programacion_ul_a_nombre{
+    width: max-content;
+    border-left: solid white;
+    border-width: thin;
+    transition: all 0.5s;
+    &:hover{
+        color: rgba(68, 68, 179, 0.8);
+        font-weight: lighter;
+    }
+}

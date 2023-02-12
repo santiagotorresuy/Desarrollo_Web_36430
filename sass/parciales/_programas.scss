@@ -1,0 +1,60 @@
+.main_programas_h1{
+    padding-left: 1rem;
+    border-left: solid white;
+    margin: 2rem 5rem;
+    color: white;
+}
+.main_programas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(9,15rem);
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+    margin: 0 5rem;
+    &_div {
+        position: relative;
+        overflow: hidden;
+        transition: all 0.5s;
+        &:hover{
+            opacity: 60%;
+        }        
+        .programas_div_a {
+            color: rgb(0, 0, 0);
+            width: 100%;
+            height: 100%;
+            .main_programas_img {
+                width: 100%;
+                height: 15rem;
+            }
+            .main_programas_a_div{
+                padding-left: 1rem;
+                width: 80%;
+                position: absolute;
+                bottom: 1rem;
+                background-color: rgba(92, 94, 94, 0.664);
+                .p_nombre_programa{
+                    font-size: 25px;
+                    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                    color: rgb(7, 33, 51);
+                }
+                .p_horario{
+                    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                    color: white;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
