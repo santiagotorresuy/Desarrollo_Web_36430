@@ -613,6 +613,8 @@ p{
     .main_vivo_iframe {
         width: 860px;
         height: 600px;
+    }
+        
 }
 
 @media screen and (max-width: 768px){
@@ -748,9 +750,11 @@ p{
         font-size: 15px;
     }
     /*VIVO*/
-    .main_vivo_iframe {
+    .main_vivo_iframe{
         width: 600px;
         height: 400px;
+    }
+        
 }
 
 @media screen and (max-width: 425px){
@@ -866,32 +870,5 @@ p{
         width: -webkit-fill-available;
         height: 15rem;
     }
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
