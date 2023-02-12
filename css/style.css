@@ -568,6 +568,10 @@ p{
     .programacion_ul_a_nombre {
         width: 200px;
     }
+    /*VIVO*/
+    .main_vivo_iframe {
+        width: 1300px;
+        height: 850px;
 }
 @media screen and (max-width: 1200px){
     /*CARRUSEL*/
@@ -605,6 +609,10 @@ p{
     .programacion_ul_a_nombre {
         width: 200px;
     }
+    /*VIVO*/
+    .main_vivo_iframe {
+        width: 860px;
+        height: 600px;
 }
 
 @media screen and (max-width: 768px){
@@ -739,6 +747,10 @@ p{
         font-weight: lighter;
         font-size: 15px;
     }
+    /*VIVO*/
+    .main_vivo_iframe {
+        width: 600px;
+        height: 400px;
 }
 
 @media screen and (max-width: 425px){
@@ -847,6 +859,12 @@ p{
     }
     .programacion_ul_a_nombre{
         width: 170px;
+    }
+    /*VIVO*/
+    .main_vivo_iframe {
+        margin: 0 1rem;
+        width: -webkit-fill-available;
+        height: 15rem;
     }
 }
 
