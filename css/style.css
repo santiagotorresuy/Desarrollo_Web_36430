@@ -357,6 +357,8 @@ p{
     width: 50rem;
     display: flex;
     border: solid white;
+    margin-left: 21%;
+    margin-top: 5%;
 }
 
 .ingreso_div_div1 {
@@ -613,8 +615,7 @@ p{
     .main_vivo_iframe {
         width: 860px;
         height: 600px;
-    }
-        
+    }      
 }
 
 @media screen and (max-width: 768px){
@@ -870,5 +871,42 @@ p{
         width: -webkit-fill-available;
         height: 15rem;
     }
+    /*INGRESO*/
+    .ingreso_div_div1 {      
+        width: fit-content;       
+        gap: 0;       
     }
+    .ingreso_div {
+        flex-direction: column;
+        width: fit-content;
+        height: fit-content;
+        margin-left: 13%;
+        margin-bottom: 5%;
+    }
+    .ingreso_h1 {
+        margin: 1rem 0;
+    }
+    .form_div {
+        gap: 1rem;
+        margin: 0 0 1rem 0;
+    }
+    .form_label {
+        margin-left: 7px;
+    }
+    .input_ingreso {
+        margin: 7px;
+        width: 220px;
+        height: 30px;
+    }
+    .ingreso_div_div2 {
+        width: 100%;
+        gap: 10px;
+    }
+    .ingreso_h1--color {
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        font-size: medium;
+    }
+}
+
 }
