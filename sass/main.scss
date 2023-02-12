@@ -1,4 +1,6 @@
+@import "../sass/parciales/vars";
 @import "../sass/parciales/reset";
+@import "../sass/parciales/generales";
 @import "../sass/parciales/header";
 @import "../sass/parciales/carrusel";
 @import "../sass/parciales/transmision_en_vivo";
@@ -8,3 +10,5 @@
 @import "../sass/parciales/ingreso";
 @import "../sass/parciales/programas";
 @import "../sass/parciales/programacion";
+@import "../sass/parciales/vivo";
+@import "../sass/parciales/media_queries";

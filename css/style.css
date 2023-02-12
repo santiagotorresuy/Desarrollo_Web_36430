@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/*generico*/
 body{
     background-color: rgb(22, 21, 21);
 }
@@ -13,31 +14,15 @@ li{
 p{
     margin-bottom: 0;
 }
-
-/*generico*/
-
-.flex{
-    display: flex;
-}
-
 .flex_row{
     display: flex;
     flex-direction: row;
 }
-
 .a{
     text-decoration: none;
     font-style: normal;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-}
-    
-.a_registrate{
-    font-style: normal;
-    font-weight: 700;
-    text-decoration: none;
-    color: rgb(0, 83, 122);
-    font-size: inherit;
 }
 
 /*HEADER*/
@@ -890,5 +875,4 @@ p{
         font-size: medium;
     }
 }
-
 }

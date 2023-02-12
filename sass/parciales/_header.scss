@@ -1,5 +1,5 @@
 .header {
-    background-image: linear-gradient(to bottom,rgba(19,20,24,1) 51%,rgba(19,20,24,0) 100%);
+    background-image: $fondo-header;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,7 +18,7 @@
             font-size: large;
             transition: all 0.5s;
             &:hover{
-                color: rgb(64, 156, 199);
+                color: $color-hover-header;
                 font-size: x-large;
             }
         }
@@ -28,25 +28,25 @@
         align-items: center;
         margin-right: 5rem;
         .my_search_header_button{
-            background-color:rgba(19,20,24,1);
+            background-color: $fondo-search-btn;
             border: none;
             color: white;
         }
         .header_dropdown_bg{
-            background-color:rgba(19,20,24,1) ;
+            background-color: $fondo-search-btn ;
             .header_input_search{
                 width: 200px;
             }
         }
     }
     .my_header_button{
-        background-color: rgb(22, 21, 21);
+        background-color: $fondo-responsive-btn;
         border: solid white;
         border-width: thin;
         color: white;
     }
     .my_header_offcanvas{
-        background-color: rgb(22, 21, 21);
+        background-color: $fondo-responsive-btn;
         color: white;
         font-family: Arial, Helvetica, sans-serif;
     }
